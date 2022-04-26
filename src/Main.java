@@ -11,11 +11,11 @@ public class Main {
             bonusRuble = replenishmentAmount;
 
         } else {
-            bonusRuble = (replenishmentAmount / sumForBonus) + replenishmentAmount;
+            bonusRuble = (replenishmentAmount / sumForBonus) + replenishmentAmount + startingScore;
 
         }
         System.out.println("Вам начислено:" + bonusRuble);
 
-        int grandTotal = 2020;
+        int grandTotal = 2120;
     }
 }
